@@ -1,0 +1,24 @@
+{
+    "name": "js-fijs-parcel-sample",
+    "version": "1.0.0",
+    "description": "",
+    "private": "true",
+    "source": "src/index.html",
+    "scripts": {
+        "clean-dist": "rm -rf dist && mkdir dist",
+        "copy-img": "cp -vR ./src/img ./dist",
+        "start": "(npm run clean-dist && npm run copy-img) && parcel ",
+        "build": "(npm run clean-dist && npm run copy-img) && parcel build"
+    },
+    "keywords": [],
+    "author": "Teocci",
+    "license": "MIT",
+    "devDependencies": {
+        "@parcel/resolver-glob": "^2.0.1",
+        "parcel": "^2.0.1"
+    },
+    "dependencies": {
+        "@parcel/transformer-raw": "^2.0.1",
+        "flight-indicators-js": "^1.0.5"
+    }
+}
