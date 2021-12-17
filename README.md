@@ -45,15 +45,15 @@ Your directory must look like:
 
 ```console
 project/
-|src/
-    |css/
-        |style.css
-    |img/
-        |*.svg
-    |index.js
-    |index.html
-|.parcelrc
-|package.json
+|-src/
+    |-css/
+        |-style.css
+    |-img/
+        |-*.svg
+    |-index.js
+    |-index.html
+|-.parcelrc
+|-package.json
 ```
 
 Finally, start (development) or build (production) the project.
